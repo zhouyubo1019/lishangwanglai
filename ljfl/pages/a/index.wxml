@@ -1,0 +1,88 @@
+<view>
+  <view class="search">
+    <view class="font_box">
+      <text class="iconfont icon-location"></text>
+      <text>北京</text>
+    </view>
+    <view class="se_box">
+      <text class="iconfont icon-zoom"></text>
+      <input class="input" placeholder="搜索垃圾查看对应分类"></input>
+    </view>
+  </view>
+  <view class="scroll_box">
+  </view>
+  <view class="index_cont">
+    <!-- 左边盒子 -->
+    <view class="ic_left">
+      <block>
+        <view class="content_box">
+          <view class="tab_card">
+            <view class="icl_box">湿垃圾</view>
+          </view>
+        </view>
+      </block>
+       <block>
+        <view class="content_box">
+          <view class="tab_card">
+            <view class="icl_box">干垃圾</view>
+          </view>
+        </view>
+      </block>
+      <block>
+        <view class="content_box">
+          <view class="tab_card">
+            <view class="icl_box">可回收物</view>
+          </view>
+        </view>
+      </block>
+      <block>
+        <view class="content_box">
+          <view class="tab_card">
+            <view class="icl_box">有害垃圾</view>
+          </view>
+        </view>
+      </block>
+    </view>
+    <!-- 右边盒子 -->
+    <view class="ic_right">
+      <block>
+        <view class="lajiInfo">
+        <view class="lj_top">
+          <view>
+          废纸张、废塑料、废玻璃制品、废金属、废织物等适宜回收、可循环利用的生活废弃物
+          </view>
+          <view>
+            轻投轻放；清洁干燥，避免污染；废纸尽量平整；立体包装物请清空内容物，清洁后压扁投 放；有尖锐边角的，应包裹后投放
+          </view>
+        </view>
+          <block>
+            <view style="background:#f7f7f7;line-height:42px;">报纸</view>
+            <view style="background:;line-height:42px;">纸箱</view>
+            <view style="background:#f7f7f7;line-height:42px;">书本</view>
+            <view style="background:;line-height:42px;">纸袋</view>
+            <view style="background:#f7f7f7;line-height:42px;">塑料瓶</view>
+            <view style="background:;line-height:42px;">玩具</view>
+            <view style="background:#f7f7f7;line-height:42px;">油桶</view>
+            <view style="background:;line-height:42px;">乳液罐</view>
+            <view style="background:#f7f7f7;line-height:42px;">食品保鲜盒</view>
+            <view style="background:;line-height:42px;">衣架</view>
+            <view style="background:#f7f7f7;line-height:42px;">酒瓶</view>
+            <view style="background:;line-height:42px;">玻璃 杯</view>
+            <view style="background:#f7f7f7;line-height:42px;">易拉罐</view>
+            <view style="background:;line-height:42px;">锅</view>
+            <view style="background:#f7f7f7;line-height:42px;">螺丝刀</view>
+            <view style="background:;line-height:42px;">皮鞋</view>
+            <view style="background:#f7f7f7;line-height:42px;">衣物</view>
+            <view style="background:;line-height:42px;">包</view>
+            <view style="background:#f7f7f7;line-height:42px;">毛绒玩具</view>
+            <view style="background:;line-height:42px;">电路板</view>
+            <view style="background:#f7f7f7;line-height:42px;">砧板</view>
+            <view style="background:;line-height:42px;">插座</view>
+          </block>
+
+        </view>
+
+      </block>
+    </view>
+  </view>
+</view>

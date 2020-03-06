@@ -44,6 +44,7 @@ export default class Home extends Component{
 						<span>历史盈亏</span>
 						<span>本月盈亏</span>
 						<span style={{marginRight:'0px',fontWeight:'300',}}>更多</span>
+						
 					</div>
 					<div id="home-bottom2">
 						<span>1</span>
