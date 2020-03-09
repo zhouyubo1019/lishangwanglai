@@ -1,0 +1,54 @@
+<block>
+  
+    <view>
+  <view class="search">
+    <view class="font_box">
+      <text>北京</text>
+    </view>
+    <view class="se_box">
+      <input class="input" placeholder="搜索垃圾查看对应分类" bindtap="navTo"></input>
+    </view>
+  </view>
+  <view class="scroll_box">
+    <view class="srcoll_view">
+        全国版垃圾分类测试上线，朋友圈晒成绩单，大家一起来比拼！为大力推进垃圾分类，如有平台需接入垃圾分类查询服务，请留言。
+    </view>
+  </view>
+
+    <view class="zuida">
+      <view class="left">
+      <block wx:for="{{arr}}" wx:key="*this">
+        <view class="item{{index}}  {{index==ind?'index'+ind:''}}" bindtap="tapitem" data-index="{{index}}">
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view>
+
+
+
+    <view class="right">
+      <block wx:for="{{arr}}" wx:key="id">
+        <view hidden="{{index!=ind}}">
+          <view class="cent">
+            <text class="cent-a">{{item.explain}}</text>
+            <!-- {{item.require}} -->
+            <view>
+              <text class="cent-a">{{item.require}}</text>
+            </view>
+
+
+          </view>
+          <block wx:for="{{item.common}}" wx:key="item">
+            <view class="pinzhong" style="background:{{index%2?'#e9e9e9': ''}}">{{item}}
+            </view>
+
+          </block>
+        </view>
+      </block>
+    </view>
+    <view class="fnex"> <text>分享</text> </view>
+     <view class="liuy"> <text>留言</text> </view>
+    </view>
+  </view>
+
+</block>

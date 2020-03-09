@@ -1,0 +1,18 @@
+<view class="D">
+  <view>
+    <view class="title">
+      <text>语言</text>
+    </view>
+    <block wx:for="{{arr}}" class="language">
+      <text class="d-cc">{{item}}</text>
+    </block>
+  </view>
+  <view>
+    <view class="title">
+      <text>城市</text>
+    </view>
+    <block wx:for="{{arr2}}" class="city">
+      <text class="d-cc">{{item}}</text>
+    </block>
+  </view>
+</view> 

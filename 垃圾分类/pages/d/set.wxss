@@ -1,0 +1,26 @@
+.D{
+  background-color:rgba(233, 233, 233, 0.2);
+  font-size: 35rpx;
+  color: #000;
+  overflow-y:scroll; 
+}
+.title{
+  color: #ccc;
+  line-height: 3em;
+  padding-top:10rpx; 
+  text-indent: 1em;
+  font-size: 35rpx;
+}
+.language,.city{
+  background-color: #fff;
+  margin-bottom: 2rpx;
+  line-height: 2em;
+  text-indent: 1em;
+} 
+.d-cc{
+  background-color: #fff;
+  margin-bottom: 10rpx;
+  display:block;
+  line-height: 70rpx;
+  margin-left: 30rpx;
+}

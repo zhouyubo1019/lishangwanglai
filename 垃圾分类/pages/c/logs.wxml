@@ -1,0 +1,26 @@
+<view class="da">
+  <!-- <view class="hezi"> 
+      <image src="{{item.img}}" class="heziimg"></image>
+      </view>
+    {{item.name}} -->
+  <block wx:for="{{list}}" wx:key="*this">
+    <view class="hezi">
+      <view class="hhh">
+        <view class="img">
+          <image src="{{item.img}}" class="heziimg"></image>
+        </view>
+      </view>
+           <view class="shuoming">
+             {{item.name}}
+          
+        </view>
+
+
+      <view class="jt">
+        <image src="{{item.jt}}" class="jtimg"></image>
+      </view>
+    </view>
+
+
+  </block>
+</view>

@@ -1,0 +1,135 @@
+.search{
+  height:135rpx;
+  padding: 37rpx 23rpx 20rpx 23rpx;
+  box-sizing: border-box;
+  line-height:80rpx;
+  font-size:30rpx;
+  font-weight:bold;
+  display: flex;
+}
+.font_box{
+  flex:2;
+  margin-right:30rpx;
+}
+.se_box{
+  flex:8;
+  border-radius: 50rpx;
+  background:#f7f7f7;
+  height:100rpx;
+  align-items: center;
+  padding: 32rpx;
+  line-height:40rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.input{
+  width:300rpx;
+  float:left;
+  margin-top:-3rpx;
+}
+.scroll_box{
+  background: #fef6eb;height: 58rpx;
+}
+.srcoll_view {
+  height: 58rpx;
+  font-size: 24rpx;
+  white-space: nowrap;
+  line-height: 58rpx;
+  color: #797035;
+  background: #fef6eb;
+  overflow: hidden;
+  animation: myfirst 20s linear infinite;
+}
+.zuida{
+  display: flex;
+}
+.left{
+  flex: 1;
+  height: 100vh;
+  background: #f7f7f7;
+  color: #818181;
+  font-size: 27rpx;
+  
+  /* position: fixed; */
+}
+.right{
+  flex:3;
+    height: 100vh;
+  /* background: yellow; */
+    overflow-y: auto;
+}
+.item0{
+  padding: 34rpx 24rpx;
+  border-left: 2px solid #2b6c64;
+}
+.item1{
+  padding: 34rpx 24rpx;
+  border-left: 2px solid #f9a239;
+  margin-top: 10rpx;
+}
+.item2{
+  padding: 34rpx 24rpx;
+  border-left: 2px solid #16397a;
+   margin-top: 10rpx;
+}
+.item3{
+  padding: 34rpx 24rpx;
+  border-left: 2rpx solid #ef5042;
+     margin-top: 10rpx;
+}
+
+
+
+
+.index0{
+  background:  #2b6c64;
+  color: #fff;
+  font-weight: bold;
+}
+.index1{
+background:  #f9a239;
+  color: #fff;
+  font-weight: bold;
+}
+.index2{
+ background:  #16397a;
+  color: #fff;
+  font-weight: bold;
+}
+.index3{
+  background:   #ef5042;
+  color: #fff;
+  font-weight: bold;
+}
+.cent{
+  width: 90%;
+  background: #e6f2f2;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+   padding: 20rpx 10rpx;
+  /* text-align: center; */
+}
+.cent-a{
+ 
+  font-size: 30rpx;
+  
+}
+.pinzhong{
+   padding: 10rpx 30rpx;
+}
+.fnex,.liuy{
+position: absolute;
+font-size: 30rpx;
+padding:20rpx 50rpx;
+text-align: center;
+right: 10rpx; 
+border-radius: 40rpx;
+background-color: #fff;
+box-shadow: 0rpx 1rpx 5rpx #ddd;
+}
+.fnex{
+  bottom: 110rpx;
+}
+.liuy{
+  bottom: 20rpx;
+}

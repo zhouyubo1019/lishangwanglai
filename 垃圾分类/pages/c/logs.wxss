@@ -1,0 +1,55 @@
+/* .hezi{
+    width: 80rpx;
+    height: 80rpx;
+  
+}
+.heziimg{
+  width: 100%;
+  height: 100%;
+    float: left;
+}
+.da{
+  float: left;
+} */
+.da{
+  height: 100vh;
+   padding: 0 13px;
+  background: #efefef;
+  padding-top: 25rpx;
+}
+.hezi{
+display: flex;
+align-items: center;
+background: #fff;
+padding: 33rpx 25rpx;
+  margin: 25rpx 0;
+ border-radius: 10rpx;
+
+}
+.hhh{
+  flex: 1;
+}
+.img{
+  width: 80rpx;
+  height: 80rpx;
+
+}
+.heziimg{
+  width: 100%;
+  height: 100%;
+}
+.shuoming{
+  font-weight: bold;
+  padding-left: 10rpx;
+
+  flex: 6;
+}
+.jt{
+  width: 23rpx;
+  height: 35rpx;
+ 
+}
+.jtimg{
+  width: 100%;
+  height: 100%;
+}
