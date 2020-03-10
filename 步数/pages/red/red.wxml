@@ -1,0 +1,72 @@
+<view class="zuida">
+  <view class="mrfl">
+    <image src="/images/fl_1.png" class="mrfl_ming"></image>
+  </view>
+
+  <view class="jindt">
+    <progress percent="40" stroke-width="12" backgroundColor="#fa3d2a" color="#feeb73" border-radius="50" />
+    <view class="bushu">
+      <text>200步</text>
+      <text>500步</text>
+      <text>1000步</text>
+      <text>2000步</text>
+    </view>
+  </view>
+
+  <view class="hongbao">
+    <!-- 中间大盒子 -->
+    <view class="hb">
+
+      <!-- 上 -->
+      <view class="hbb">
+        <view class="hb_1">
+          <view class="hb_by"></view>
+          <view class="hb_kai"> 
+            <text class="kai">开</text>
+            <view class="hb_lqq">
+                 <text class="hb_lq">领取</text>
+            </view>
+          </view>
+        </view>
+      </view>
+            <view class="hbb">
+        <view class="hb_1">
+          <view class="hb_by"></view>
+          <view class="hb_kai"> 
+            <text class="kai">开</text>
+            <view class="hb_lqq">
+                 <text class="hb_lq">领取</text>
+            </view>
+          </view>
+        </view>
+      </view>
+            <view class="hbb">
+        <view class="hb_1">
+          <view class="hb_by"></view>
+          <view class="hb_kai"> 
+            <text class="kai">开</text>
+            <view class="hb_lqq">
+                 <text class="hb_lq">领取</text>
+            </view>
+          </view>
+        </view>
+      </view>
+            <view class="hbb">
+        <view class="hb_1">
+          <view class="hb_by"></view>
+          <view class="hb_kai"> 
+            <text class="kai">开</text>
+            <view class="hb_lqq">
+                 <text class="hb_lq">领取</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      
+
+      <!-- 下 -->
+     
+    </view>
+  </view>
+
+</view>

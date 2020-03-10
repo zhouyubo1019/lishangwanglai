@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Sports/Sports",
+    "pages/red/red"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ea6039",
+    "navigationBarTitleText": "开心步步赚",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "赚运动币",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.1.png"
+      },
+      {
+        "pagePath": "pages/Sports/Sports",
+        "text": "幸运转盘",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/4.4.png"
+      },
+      {
+        "pagePath": "pages/red/red",
+        "text": "步数红包",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/2.2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/3.3.png"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "color": "#000",
+    "selectedColor": "#9d484d"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

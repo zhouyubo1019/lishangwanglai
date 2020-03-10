@@ -1,0 +1,84 @@
+<view class="cont">
+  <view class="cont_1">
+    <view class="img_a">
+      <image src="{{userInfo.avatarUrl}}" mode="cover" class="img"></image>
+    </view>
+    <text class="cont_t">{{userInfo.nickName}}</text>
+    <view class="bbj">
+      查看特权
+    </view>
+
+    <!-- 进度条 -->
+    <view class="jdt">
+      <progress percent="15" stroke-width="18rpx" border-radius="50" activeColor="#fdbf00" backgroundColor="#d21f1c" />
+
+      <view class="ttt">
+        10/200(成长值)
+      </view>
+      <view class="jdt_t">
+        vip1
+        <text class="jdt_t_t">运动币+10</text>
+      </view>
+
+    </view>
+
+
+    <view class="cent">
+      <view class="cent_1">
+        <text class="cent_a whk">82</text>
+        <text class="cent_b">运动币余额</text>
+      </view>
+
+      <view class="cent_2">
+        <view class="img_aa">
+          <image src="/images/jt1_03.png" class="img2"></image>
+        </view>
+
+        <view class="cent_2t">
+          立即兑换
+        </view>
+
+      </view>
+
+
+      <view class="cent_3">
+        <text class="cent_e">0.07元</text>
+        <text class="cent_f">我得话费</text>
+      </view>
+    </view>
+
+  </view>
+
+
+
+
+
+  <view class="foot">
+    <text class="foot_t">VIP限时福利</text>
+
+    <view class="foot2">
+      <view class="foot2_1">
+        <text class="wang">邀请好友</text>
+        <view class="jinbi">
+          <image src="/images/jinbi.png" class="jinbi_img"></image>
+        </view>
+        <text class="hua">+600运动币</text>
+
+        <view class="ya">
+          <view class="xingxing">
+            <image src="/images/xingxing.png" class="xingxing_img"></image>
+          </view>
+          <text class="kang">(每天可多次完成)</text>
+        </view>
+      </view>
+
+
+      <view class="foot2_3">
+              邀请
+
+      </view>
+
+    </view>
+
+  </view>
+</view>

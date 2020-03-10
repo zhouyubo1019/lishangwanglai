@@ -3,7 +3,7 @@
     <view>
   <view class="search">
     <view class="font_box">
-      <text>北京</text>
+      <text bindtap="setInfo">北京</text>
     </view>
     <view class="se_box">
       <input class="input" placeholder="搜索垃圾查看对应分类" bindtap="navTo"></input>

@@ -27,7 +27,9 @@ Page({
     // console.log(ev)
     this.setData({
       ind: ev.currentTarget.dataset.index
+      
     })
+    // console.log(ev.currentTarget.dataset.index)
   },
   onLoad(){
     wx.request({

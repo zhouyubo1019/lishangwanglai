@@ -1,0 +1,32 @@
+<!-- 头部 -->
+<view class="content">
+  <view class="content_left">
+    已签到一天
+  </view>
+  <view class="content_right">
+    <text class="right_tit">了解运动币</text>
+  </view>
+
+
+  <!-- 圆 -->
+  <view class="yuanhezi">
+
+    <view class="yuan">
+      <view class="yuan_a">
+        <text class="yuan_tit">我的运动币</text>
+        <text class="yuan_t2">52</text>
+        <text class="yuan_t3">今日步数{{data.step}}步</text>
+      </view>
+
+    </view>
+    <view class="one">5</view>
+    <view class="tow">7</view>
+    <view class="tree">8</view>
+    <view class="four">9</view>
+  </view>
+
+  <view class="tit_bot">
+    邀请新好友得600运动币
+  </view>
+
+</view>
