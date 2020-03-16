@@ -1,0 +1,31 @@
+#olist-top{
+	width: 390px;
+	height: 51px;
+	background-color:#fff;
+	line-height: 51px;
+}
+#olist-top img{
+	float: left;
+	margin: 15px;
+}
+#olist-p{
+	float: left;
+	margin-left: 130px;
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+}
+#olist-fl{
+	width: 100%;
+	height: 44px;
+}
+#olist-for{
+	float: left;
+	line-height: 44px;
+	width: 129px;
+	font-size: 13px;
+	color: #333;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	background-color: rgba(240, 248, 250, 1);
+}

@@ -1,0 +1,21 @@
+#moban-b{
+	width: 121px;
+	height: 175px;
+	background-color: #d7d7d7;
+	margin-left: 5px;
+	font-size: 14px;
+	color: #333;
+	padding: 65px 30px;
+	box-sizing: border-box;
+}
+#moban-b img{
+	width: 20px;
+	height: 20px;
+	
+}
+#moban-lbel input{
+	margin:7px;
+}
+#moban{
+	float: left;
+}

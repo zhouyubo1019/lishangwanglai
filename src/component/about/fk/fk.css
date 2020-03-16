@@ -11,3 +11,28 @@
     margin-top: -12px;
     margin-bottom: 12px;
 }
+#fk-input{
+	width: 360px;
+	margin-left: 15px;
+	height: 250px;
+	border: none;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #ccc;
+}
+#fk-for{
+	width: 390px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #fff;
+	margin-top: 15px;
+}
+#fk-title{
+	float: left;
+	margin-left: 15px;
+}
+#fk-info{
+
+	float: right;
+	margin-right: 5px;
+}

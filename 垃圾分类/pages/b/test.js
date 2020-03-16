@@ -50,27 +50,27 @@ Page({
     }],
     arr2: ['湿垃圾', '干垃圾', '可回收物', '有害垃圾']
   },
-  nextIndex(e) {
-    this.setData({
-      indexs: ++this.data.indexs,
-      ['arr1[' + (this.data.indexs - 1) + '].outcome']: e.currentTarget.dataset.outcome
-    })
+  // nextIndex(e) {
+  //   this.setData({
+  //     indexs: ++this.data.indexs,
+  //     ['arr1[' + (this.data.indexs - 1) + '].outcome']: e.currentTarget.dataset.outcome
+  //   })
 
-    if ((this.data.indexs + 1) == this.data.arr1.length) {
-      this.setData({
-        ['arr1[' + (this.data.arr1.length - 1) + '].outcome']: e.currentTarget.dataset.outcome
-      })
-      var sum = 0
-      for (var i = 0; i < this.data.arr1.length; i++) {
-        if (this.data.arr1[i].outcome == this.data.arr1[i].type) {
-          sum += 10
-          this.setData({
-            score: sum
-          })
-        }
-      }
-    }
-  },
+  //   if ((this.data.indexs + 1) == this.data.arr1.length) {
+  //     this.setData({
+  //       ['arr1[' + (this.data.arr1.length - 1) + '].outcome']: e.currentTarget.dataset.outcome
+  //     })
+  //     var sum = 0
+  //     for (var i = 0; i < this.data.arr1.length; i++) {
+  //       if (this.data.arr1[i].outcome == this.data.arr1[i].type) {
+  //         sum += 10
+  //         this.setData({
+  //           score: sum
+  //         })
+  //       }
+  //     }
+  //   }
+  // },
   again() {
     this.setData({
       score: 0,

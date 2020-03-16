@@ -1,0 +1,31 @@
+#home-bottom{
+	width: 390px;
+	height: auto;
+}
+#home-bottom1{
+	width: 390px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	background-color: rgba(188,188,188,1);
+}
+#home-bottom1 span{
+	margin-right: 43px;
+	font-weight: 700;
+	font-size: 14px;
+}
+#home-bottom2{
+	width: 390px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+#home-bottom2 span{
+	margin-right: 40px;
+	font-size: 14px;
+	
+}

@@ -1,0 +1,41 @@
+#sol{
+	width: 390px;
+	height: 64px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+#sol-p{
+	width: 100px;
+	float: left;
+	margin: 10px;
+	font-size: 14px;
+	color:#333;
+	line-height: 25px;
+}
+#sol-p img{
+	width: 19px;
+	height: 19px;
+}
+#sol-span{
+	display: inline-block;
+	width: 18px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background-color: #ccc;
+	color: #fff;
+	margin-right: 5px;
+	border-radius: 3px;
+}
+#sol-jine{
+	font-size: 28px;
+	color: #FF0000;
+	float: right;
+	margin: 5px;
+	font-weight: bold;
+}
+#sol-timme{
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+}

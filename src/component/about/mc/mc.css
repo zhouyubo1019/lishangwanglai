@@ -1,0 +1,55 @@
+#mc-top{
+	width: 390px;
+	height: 51px;
+	background-color:#fff;
+	line-height: 51px;
+	margin-bottom: 15px;
+}
+#mc-top img{
+	float: left;
+	margin: 15px;
+}
+#mc-p{
+	float: left;
+	margin-left: 130px;
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+}
+#mc-header{
+	width: 390px;
+	height: 88px;
+	background-color: #fff;
+	line-height: 88px;
+	margin-bottom: 15px;
+}
+#mc-header p{
+	float: left;
+	font-size: 14px;
+	color: #333;
+	margin-left: 20px;
+
+}
+#mc-header img{
+	float: right;
+	margin: 10px;
+}
+#mc-for{
+	width: 390px;
+	height: 44px;
+	line-height: 44px;
+	background-color: #fff;
+	margin-bottom: 2px;
+}
+#mc-title{
+	float: left;
+	margin-left: 15px;
+}
+#mc-info{
+	color: #ccc;
+	float: right;
+	margin-right: 5px;
+}
+#mc-ccc{
+	margin-top: 20px;
+}

@@ -17,7 +17,7 @@ Page({
       '/images/jp6.png',
       '/images/jp.png',
       '/images/jp7.png',
-    ],//奖品图片数组
+    ],
   },
 
   onLoad: function () {
@@ -59,20 +59,7 @@ Page({
     this.setData({
       circleList: circleList
     })
-    //圆点闪烁
-    setInterval(function () {
-      if (_this.data.colorCircleFirst == '#fffbff') {
-        _this.setData({
-          colorCircleFirst: '#1ff7d6',
-          colorCircleSecond: '#fffbff',
-        })
-      } else {
-        _this.setData({
-          colorCircleFirst: '#fffbff',
-          colorCircleSecond: '#1ff7d6',
-        })
-      }
-    }, 500)
+
     //奖品item设置
     var awardList = [];
     //间距,怎么顺眼怎么设置吧.

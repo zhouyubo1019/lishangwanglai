@@ -1,7 +1,10 @@
 import React,{Component} from 'react'
 import {NavLink} from 'react-router-dom'
-import './fk.css'
-export default class about extends Component{
+import './moban.css'
+import Zujian from '../zujian/zujian'
+import Wanc from '../wanc/wanc'
+import Danxu from '../danxu/dnaxu'
+export default class Home extends Component{
 constructor(){
     super()
 }
@@ -9,19 +12,20 @@ render(){
     return(
         <div>
 			<div id="sz">
-				<NavLink to="/about">
+				<NavLink to="/hunyan">
 					<div id="sz-img"><img src="http://www.axshare.cn/gsc/9B0J2A/6b/b2/f3/6bb2f30d8aa742729e588769883d60fd/images/礼账列表/u84.png?token=33322991ede4fde3424b1dc4dc59c0daeffe02755274fee6b5bd9b4a11eb5627" /></div>
 				</NavLink>
-				<p>建议反馈</p>
+				<p>选择婚柬模板</p>
 			</div>
-			<div>
-			<input type="text" value="感谢您对礼尚往来的支持，点击输入反馈信息..." id="fk-input"/>
-			
-			</div>
-			<div id="fk-for">
-				<p id="fk-title">邮箱：</p>
-				<p id="fk-info">输入邮箱</p>
-			</div>
+				<Danxu></Danxu>
+				<Danxu></Danxu>
+				<Danxu></Danxu>
+				<Danxu></Danxu>
+				<Danxu></Danxu>
+				<Danxu></Danxu>
+			<NavLink to="fenx">
+				<Wanc a="完成"></Wanc>
+			</NavLink>
 		</div>
     )
 }
